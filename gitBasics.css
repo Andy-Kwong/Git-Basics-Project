@@ -1,0 +1,180 @@
+* {
+    font-family: "courier", serif;
+}
+
+.wrapper {
+    background-color: #dddfd4;
+    padding-top: 15px;
+    width: 1200px;
+    height: 855px;
+}
+
+/*---------- header -----------*/
+
+.header {
+    background-color: #04b1ad;
+    margin: 0px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.github_icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px -35px 0px 15px;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links {
+    margin: 31px 5px;
+    display: inline-block
+
+}
+
+.headerlinks {
+    margin-right: 20px;
+}
+
+
+/*-------------- body --------------*/
+
+.body {
+    background-color: #ffe399;
+    margin: 15px 15px 5px 15px;
+    padding: 15px;
+}
+
+.whatis {
+    width: 21%;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 20px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.whatisgit {
+    margin: 0px 0px 5px -8px;
+}
+
+.whatisgh {
+    margin: 15px auto 0px;
+}
+
+/*------------- right side ---------------*/
+
+.rightside {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.gitinit {
+    width: 194px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 30px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.gitadd {
+    width: 194px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 30px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.gitstatus {
+    width: 194px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 15px 15px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.gitcommit {
+    width: 330px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 30px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.gitremoteadd {
+    width: 331px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 15px 15px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.gitpush {
+    width: 741px;
+    height: 157px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px 15px;
+    background-color: #0a4043;
+    color: rgba(255,255,255,.75);
+    padding: 10px 20px 20px;
+    display: inline-block;
+}
+
+.body p {
+    margin-bottom: 0;
+}
+
+h4 {
+    font-weight: 300;
+    margin: 0px 0px 5px -8px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.body .turq {
+    color: #1cb9ad;
+}
+
+.footer {
+    background-color: #04b1ad;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 15px;
+}
+
+a: link {
+    color: white;
+}
